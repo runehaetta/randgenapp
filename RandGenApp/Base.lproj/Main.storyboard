@@ -22,7 +22,7 @@
                                 <rect key="frame" x="16" y="0.0" width="343" height="150"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxxxxxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIt-ME-cID">
-                                        <rect key="frame" x="0.0" y="65" width="343" height="21"/>
+                                        <rect key="frame" x="0.0" y="65" width="343" height="32"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -30,10 +30,10 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leading" id="1lg-1e-9Ao"/>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="centerY" secondItem="O0n-qs-Rev" secondAttribute="centerY" id="hFK-Nf-xKa"/>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="65" id="nQw-II-dKa"/>
-                                    <constraint firstAttribute="trailing" secondItem="uIt-ME-cID" secondAttribute="trailing" id="zBL-a7-2QT"/>
+                                    <constraint firstAttribute="trailing" secondItem="uIt-ME-cID" secondAttribute="trailing" id="XYI-2r-AXz"/>
+                                    <constraint firstItem="uIt-ME-cID" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leading" id="hvI-cK-zgD"/>
+                                    <constraint firstAttribute="bottom" secondItem="uIt-ME-cID" secondAttribute="bottom" constant="53" id="nBy-l3-ci6"/>
+                                    <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="65" id="tGA-Jd-Y1t"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-a2-aJX">
@@ -54,6 +54,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="passwordLabel" destination="uIt-ME-cID" id="1nJ-pv-bHQ"/>
+                        <outlet property="touchView" destination="Rl4-a2-aJX" id="pBd-kG-w47"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var passwordLabel: UILabel!
+    @IBOutlet weak var touchView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.passwordLabel.text = "1234567890abcdef"
     }
 
     override func didReceiveMemoryWarning() {
