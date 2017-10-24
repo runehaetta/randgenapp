@@ -36,7 +36,7 @@
                                     <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="65" id="tGA-Jd-Y1t"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-a2-aJX">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-a2-aJX" customClass="UITouchView" customModule="RandGenApp" customModuleProvider="target">
                                 <rect key="frame" x="16" y="150" width="343" height="493"/>
                                 <color key="backgroundColor" red="0.89135866116751272" green="0.89135866116751272" blue="0.89135866116751272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>

@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.passwordLabel.text = "1234567890abcdef"
+        
     }
 
     override func didReceiveMemoryWarning() {
