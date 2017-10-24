@@ -10,10 +10,12 @@ import UIKit
 
 class UITouchView : UIView {
 
+    var touchViewDelegate : UITouchViewDelegate!
+    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         let touch = touches.first!
         let location = touch.location(in: self)
-
-        print("touchesMoved", location)
+        
+        touchViewDelegate.touchesMoved(location)
     }
 }

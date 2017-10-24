@@ -8,16 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITouchViewDelegate {
 
+    func touchesMoved(_ location: CGPoint) {
+        print("touchesMoved", location)
+    }
+    
     @IBOutlet weak var passwordLabel: UILabel!
-    @IBOutlet weak var touchView: UIView!
+    @IBOutlet weak var touchView: UITouchView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.passwordLabel.text = "1234567890abcdef"
-        
+        self.touchView.touchViewDelegate = self
     }
 
     override func didReceiveMemoryWarning() {

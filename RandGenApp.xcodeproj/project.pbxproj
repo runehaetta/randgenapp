@@ -14,6 +14,7 @@
 		A5DF0B9F1F9E4315009EA6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DF0B9D1F9E4315009EA6FD /* LaunchScreen.storyboard */; };
 		A5DF0BAA1F9E4315009EA6FD /* RandGenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0BA91F9E4315009EA6FD /* RandGenAppTests.swift */; };
 		A5DF0BB51F9E75DD009EA6FD /* UITouchVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0BB41F9E75DD009EA6FD /* UITouchVIew.swift */; };
+		A5DF0BB71F9F1D68009EA6FD /* UITouchViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0BB61F9F1D68009EA6FD /* UITouchViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A5DF0BA91F9E4315009EA6FD /* RandGenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandGenAppTests.swift; sourceTree = "<group>"; };
 		A5DF0BAB1F9E4315009EA6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DF0BB41F9E75DD009EA6FD /* UITouchVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITouchVIew.swift; sourceTree = "<group>"; };
+		A5DF0BB61F9F1D68009EA6FD /* UITouchViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITouchViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */,
 				A5DF0B961F9E4315009EA6FD /* ViewController.swift */,
+				A5DF0BB61F9F1D68009EA6FD /* UITouchViewDelegate.swift */,
 				A5DF0B981F9E4315009EA6FD /* Main.storyboard */,
 				A5DF0B9B1F9E4315009EA6FD /* Assets.xcassets */,
 				A5DF0B9D1F9E4315009EA6FD /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 				A5DF0BB51F9E75DD009EA6FD /* UITouchVIew.swift in Sources */,
 				A5DF0B971F9E4315009EA6FD /* ViewController.swift in Sources */,
 				A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */,
+				A5DF0BB71F9F1D68009EA6FD /* UITouchViewDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
