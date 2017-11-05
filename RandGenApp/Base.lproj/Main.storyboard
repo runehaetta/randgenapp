@@ -4,7 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -27,13 +27,38 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please, move your finger randomly around the grey area." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwP-xo-fng">
+                                        <rect key="frame" x="8" y="121" width="327" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="jUT-QS-LuZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvt-v5-onK">
+                                        <rect key="frame" x="289" y="27" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="FPa-Rq-azp"/>
+                                            <constraint firstAttribute="width" constant="46" id="iMp-rc-Vi7"/>
+                                        </constraints>
+                                        <state key="normal" title="Clear"/>
+                                        <connections>
+                                            <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6L-HG-Ale"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="uIt-ME-cID" secondAttribute="trailing" id="XYI-2r-AXz"/>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leading" id="hvI-cK-zgD"/>
-                                    <constraint firstAttribute="bottom" secondItem="uIt-ME-cID" secondAttribute="bottom" constant="53" id="nBy-l3-ci6"/>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="65" id="tGA-Jd-Y1t"/>
+                                    <constraint firstItem="hwP-xo-fng" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leadingMargin" id="FDH-5W-R9Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="uIt-ME-cID" secondAttribute="trailing" id="GoG-fo-6RA"/>
+                                    <constraint firstItem="Rvt-v5-onK" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="27" id="YA1-ED-gfc"/>
+                                    <constraint firstItem="Rvt-v5-onK" firstAttribute="trailing" secondItem="hwP-xo-fng" secondAttribute="trailing" id="ZHj-o6-Zh5"/>
+                                    <constraint firstItem="uIt-ME-cID" firstAttribute="centerX" secondItem="hwP-xo-fng" secondAttribute="centerX" id="ZS8-QO-C0f"/>
+                                    <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="Rvt-v5-onK" secondAttribute="bottom" constant="8" symbolic="YES" id="c5L-2Z-Ims"/>
+                                    <constraint firstItem="uIt-ME-cID" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leading" id="ibn-qV-xDg"/>
+                                    <constraint firstItem="hwP-xo-fng" firstAttribute="top" secondItem="uIt-ME-cID" secondAttribute="bottom" constant="24" id="l6k-uf-DkD"/>
+                                    <constraint firstItem="hwP-xo-fng" firstAttribute="bottom" secondItem="O0n-qs-Rev" secondAttribute="bottomMargin" id="zpv-d6-j7k"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-a2-aJX" customClass="UITouchView" customModule="RandGenApp" customModuleProvider="target">
@@ -43,14 +68,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="O0n-qs-Rev" firstAttribute="leading" secondItem="Rl4-a2-aJX" secondAttribute="leading" id="0yQ-xJ-ZIw"/>
-                            <constraint firstItem="O0n-qs-Rev" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1K7-C7-nbN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Rl4-a2-aJX" secondAttribute="bottom" constant="24" id="2Wd-xp-Aya"/>
-                            <constraint firstItem="O0n-qs-Rev" firstAttribute="trailing" secondItem="Rl4-a2-aJX" secondAttribute="trailing" id="5aG-Ol-z0R"/>
-                            <constraint firstItem="O0n-qs-Rev" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5ub-Ka-UgF"/>
-                            <constraint firstItem="O0n-qs-Rev" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="HLO-wm-jb4"/>
-                            <constraint firstItem="Rl4-a2-aJX" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="bottom" id="Vhe-6m-MjC"/>
+                            <constraint firstItem="O0n-qs-Rev" firstAttribute="leading" secondItem="Rl4-a2-aJX" secondAttribute="leading" id="F8C-10-dOo"/>
+                            <constraint firstItem="O0n-qs-Rev" firstAttribute="trailing" secondItem="Rl4-a2-aJX" secondAttribute="trailing" id="Ydh-P2-3Do"/>
+                            <constraint firstItem="Rl4-a2-aJX" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="bottom" id="jkf-WU-Re0"/>
+                            <constraint firstItem="O0n-qs-Rev" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="kDI-pH-2Os"/>
                             <constraint firstItem="Rl4-a2-aJX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="150" id="kpT-Ec-a13"/>
+                            <constraint firstItem="O0n-qs-Rev" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tcZ-GU-hDk"/>
+                            <constraint firstItem="O0n-qs-Rev" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yWb-pf-nOj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B3743E1FAF34B600BE9B91 /* FixedFifo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3743D1FAF34B600BE9B91 /* FixedFifo.swift */; };
+		A5B374401FAF674B00BE9B91 /* FixedFifoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3743F1FAF674B00BE9B91 /* FixedFifoTests.swift */; };
+		A5CCCE2F1FA123C500CCED11 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */; };
+		A5CCCE311FA1249C00CCED11 /* RandomStringGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */; };
 		A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */; };
 		A5DF0B971F9E4315009EA6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0B961F9E4315009EA6FD /* ViewController.swift */; };
 		A5DF0B9A1F9E4315009EA6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DF0B981F9E4315009EA6FD /* Main.storyboard */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5B3743D1FAF34B600BE9B91 /* FixedFifo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedFifo.swift; sourceTree = "<group>"; };
+		A5B3743F1FAF674B00BE9B91 /* FixedFifoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedFifoTests.swift; sourceTree = "<group>"; };
+		A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGenerator.swift; sourceTree = "<group>"; };
+		A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGeneratorTests.swift; sourceTree = "<group>"; };
 		A5DF0B911F9E4315009EA6FD /* RandGenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandGenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DF0B961F9E4315009EA6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +97,8 @@
 				A5DF0B9D1F9E4315009EA6FD /* LaunchScreen.storyboard */,
 				A5DF0BA01F9E4315009EA6FD /* Info.plist */,
 				A5DF0BB41F9E75DD009EA6FD /* UITouchVIew.swift */,
+				A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */,
+				A5B3743D1FAF34B600BE9B91 /* FixedFifo.swift */,
 			);
 			path = RandGenApp;
 			sourceTree = "<group>";
@@ -98,6 +108,8 @@
 			children = (
 				A5DF0BA91F9E4315009EA6FD /* RandGenAppTests.swift */,
 				A5DF0BAB1F9E4315009EA6FD /* Info.plist */,
+				A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */,
+				A5B3743F1FAF674B00BE9B91 /* FixedFifoTests.swift */,
 			);
 			path = RandGenAppTests;
 			sourceTree = "<group>";
@@ -205,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5B3743E1FAF34B600BE9B91 /* FixedFifo.swift in Sources */,
+				A5CCCE2F1FA123C500CCED11 /* RandomStringGenerator.swift in Sources */,
 				A5DF0BB51F9E75DD009EA6FD /* UITouchVIew.swift in Sources */,
 				A5DF0B971F9E4315009EA6FD /* ViewController.swift in Sources */,
 				A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */,
@@ -216,6 +230,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5CCCE311FA1249C00CCED11 /* RandomStringGeneratorTests.swift in Sources */,
+				A5B374401FAF674B00BE9B91 /* FixedFifoTests.swift in Sources */,
 				A5DF0BAA1F9E4315009EA6FD /* RandGenAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
