@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITouchViewDelegate {
+class TouchViewController: UIViewController, UITouchViewDelegate {
 
     @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var touchView: UITouchView!

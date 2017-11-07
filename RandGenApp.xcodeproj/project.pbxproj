@@ -12,7 +12,7 @@
 		A5CCCE2F1FA123C500CCED11 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */; };
 		A5CCCE311FA1249C00CCED11 /* RandomStringGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */; };
 		A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */; };
-		A5DF0B971F9E4315009EA6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0B961F9E4315009EA6FD /* ViewController.swift */; };
+		A5DF0B971F9E4315009EA6FD /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0B961F9E4315009EA6FD /* TouchViewController.swift */; };
 		A5DF0B9A1F9E4315009EA6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DF0B981F9E4315009EA6FD /* Main.storyboard */; };
 		A5DF0B9C1F9E4315009EA6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5DF0B9B1F9E4315009EA6FD /* Assets.xcassets */; };
 		A5DF0B9F1F9E4315009EA6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DF0B9D1F9E4315009EA6FD /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGeneratorTests.swift; sourceTree = "<group>"; };
 		A5DF0B911F9E4315009EA6FD /* RandGenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandGenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5DF0B961F9E4315009EA6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5DF0B961F9E4315009EA6FD /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
 		A5DF0B991F9E4315009EA6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5DF0B9B1F9E4315009EA6FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5DF0B9E1F9E4315009EA6FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */,
-				A5DF0B961F9E4315009EA6FD /* ViewController.swift */,
+				A5DF0B961F9E4315009EA6FD /* TouchViewController.swift */,
 				A5DF0BB61F9F1D68009EA6FD /* UITouchViewDelegate.swift */,
 				A5DF0B981F9E4315009EA6FD /* Main.storyboard */,
 				A5DF0B9B1F9E4315009EA6FD /* Assets.xcassets */,
@@ -220,7 +220,7 @@
 				A5B3743E1FAF34B600BE9B91 /* FixedFifo.swift in Sources */,
 				A5CCCE2F1FA123C500CCED11 /* RandomStringGenerator.swift in Sources */,
 				A5DF0BB51F9E75DD009EA6FD /* UITouchVIew.swift in Sources */,
-				A5DF0B971F9E4315009EA6FD /* ViewController.swift in Sources */,
+				A5DF0B971F9E4315009EA6FD /* TouchViewController.swift in Sources */,
 				A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */,
 				A5DF0BB71F9F1D68009EA6FD /* UITouchViewDelegate.swift in Sources */,
 			);
