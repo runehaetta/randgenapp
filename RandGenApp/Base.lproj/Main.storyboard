@@ -116,26 +116,58 @@
         <!--Move-->
         <scene sceneID="E1R-qj-d5K">
             <objects>
-                <viewController id="MgB-55-dNd" sceneMemberID="viewController">
+                <viewController id="MgB-55-dNd" customClass="MoveViewController" customModule="RandGenApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wnw-16-3eh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwU-zU-pfb">
-                                <rect key="frame" x="166" y="323" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o77-Be-aEm">
+                                <rect key="frame" x="68" y="175" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startAction:" destination="MgB-55-dNd" eventType="touchUpInside" id="jFP-4Y-Nnl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEh-b1-jfZ">
+                                <rect key="frame" x="271" y="175" width="36" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearAction:" destination="MgB-55-dNd" eventType="touchUpInside" id="szX-mO-kW9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3H-XL-LUV">
+                                <rect key="frame" x="171" y="175" width="32" height="30"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="stopAction:" destination="MgB-55-dNd" eventType="touchUpInside" id="BDC-lE-oo7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxxxxxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-r3-WTs">
+                                <rect key="frame" x="16" y="317" width="343" height="32"/>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="fwU-zU-pfb" firstAttribute="centerY" secondItem="Wnw-16-3eh" secondAttribute="centerY" id="Ux0-hV-JcU"/>
-                            <constraint firstItem="fwU-zU-pfb" firstAttribute="centerX" secondItem="Wnw-16-3eh" secondAttribute="centerX" id="lHl-HL-NTu"/>
+                            <constraint firstItem="t3H-XL-LUV" firstAttribute="centerX" secondItem="pRr-r3-WTs" secondAttribute="centerX" id="5Yn-iA-ZSh"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="trailing" secondItem="Wnw-16-3eh" secondAttribute="trailingMargin" id="5Z4-HY-8d7"/>
+                            <constraint firstItem="o77-Be-aEm" firstAttribute="leading" secondItem="9xm-yI-4ne" secondAttribute="leading" constant="68" id="KHa-wY-idA"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="leading" secondItem="Wnw-16-3eh" secondAttribute="leadingMargin" id="WW6-0O-JNc"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="centerY" secondItem="Wnw-16-3eh" secondAttribute="centerY" id="aQI-te-VVZ"/>
+                            <constraint firstItem="9xm-yI-4ne" firstAttribute="bottom" secondItem="pRr-r3-WTs" secondAttribute="bottom" constant="269" id="atL-Go-ihp"/>
+                            <constraint firstItem="o77-Be-aEm" firstAttribute="baseline" secondItem="t3H-XL-LUV" secondAttribute="baseline" id="bvb-h3-OZp"/>
+                            <constraint firstItem="o77-Be-aEm" firstAttribute="top" secondItem="9xm-yI-4ne" secondAttribute="top" constant="155" id="hvP-ii-Tkm"/>
+                            <constraint firstItem="eEh-b1-jfZ" firstAttribute="leading" secondItem="t3H-XL-LUV" secondAttribute="trailing" constant="68" id="ija-DF-cPF"/>
+                            <constraint firstItem="t3H-XL-LUV" firstAttribute="baseline" secondItem="eEh-b1-jfZ" secondAttribute="baseline" id="qH3-k3-por"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9xm-yI-4ne"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Move" image="Shake-phone" id="gW5-4H-VHM"/>
+                    <connections>
+                        <outlet property="passwordLabel" destination="pRr-r3-WTs" id="HNJ-1A-YdS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2K-eb-i2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

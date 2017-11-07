@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A5B3743E1FAF34B600BE9B91 /* FixedFifo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3743D1FAF34B600BE9B91 /* FixedFifo.swift */; };
 		A5B374401FAF674B00BE9B91 /* FixedFifoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3743F1FAF674B00BE9B91 /* FixedFifoTests.swift */; };
+		A5B3BD9A1FB2242200EE310B /* MoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B3BD991FB2242200EE310B /* MoveViewController.swift */; };
 		A5CCCE2F1FA123C500CCED11 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */; };
 		A5CCCE311FA1249C00CCED11 /* RandomStringGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */; };
 		A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DF0B941F9E4315009EA6FD /* AppDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		A5B3743D1FAF34B600BE9B91 /* FixedFifo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedFifo.swift; sourceTree = "<group>"; };
 		A5B3743F1FAF674B00BE9B91 /* FixedFifoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedFifoTests.swift; sourceTree = "<group>"; };
+		A5B3BD991FB2242200EE310B /* MoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveViewController.swift; sourceTree = "<group>"; };
 		A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGenerator.swift; sourceTree = "<group>"; };
 		A5CCCE301FA1249C00CCED11 /* RandomStringGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringGeneratorTests.swift; sourceTree = "<group>"; };
 		A5DF0B911F9E4315009EA6FD /* RandGenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandGenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 				A5DF0BB41F9E75DD009EA6FD /* UITouchVIew.swift */,
 				A5CCCE2E1FA123C500CCED11 /* RandomStringGenerator.swift */,
 				A5B3743D1FAF34B600BE9B91 /* FixedFifo.swift */,
+				A5B3BD991FB2242200EE310B /* MoveViewController.swift */,
 			);
 			path = RandGenApp;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				A5CCCE2F1FA123C500CCED11 /* RandomStringGenerator.swift in Sources */,
 				A5DF0BB51F9E75DD009EA6FD /* UITouchVIew.swift in Sources */,
 				A5DF0B971F9E4315009EA6FD /* TouchViewController.swift in Sources */,
+				A5B3BD9A1FB2242200EE310B /* MoveViewController.swift in Sources */,
 				A5DF0B951F9E4315009EA6FD /* AppDelegate.swift in Sources */,
 				A5DF0BB71F9F1D68009EA6FD /* UITouchViewDelegate.swift in Sources */,
 			);
