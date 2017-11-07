@@ -84,7 +84,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Touch" id="Iix-no-b7v"/>
+                    <tabBarItem key="tabBarItem" title="Touch" image="Natural-user-interface-2" id="Iix-no-b7v"/>
                     <connections>
                         <outlet property="passwordLabel" destination="uIt-ME-cID" id="1nJ-pv-bHQ"/>
                         <outlet property="touchView" destination="Rl4-a2-aJX" id="pBd-kG-w47"/>
@@ -135,11 +135,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9xm-yI-4ne"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Move" id="gW5-4H-VHM"/>
+                    <tabBarItem key="tabBarItem" title="Move" image="Shake-phone" id="gW5-4H-VHM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2K-eb-i2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="472" y="805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Natural-user-interface-2" width="25" height="25"/>
+        <image name="Shake-phone" width="25" height="25"/>
+    </resources>
 </document>
