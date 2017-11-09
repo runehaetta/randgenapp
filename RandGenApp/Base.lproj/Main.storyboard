@@ -32,38 +32,38 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please, move your finger randomly around the grey area." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwP-xo-fng">
-                                        <rect key="frame" x="8" y="121" width="327" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="jUT-QS-LuZ"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvt-v5-onK">
                                         <rect key="frame" x="289" y="27" width="46" height="30"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="FPa-Rq-azp"/>
-                                            <constraint firstAttribute="width" constant="46" id="iMp-rc-Vi7"/>
+                                            <constraint firstAttribute="width" constant="46" id="cG1-hl-2Ug"/>
+                                            <constraint firstAttribute="height" constant="30" id="vh3-2E-O0X"/>
                                         </constraints>
                                         <state key="normal" title="Clear"/>
                                         <connections>
                                             <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S6L-HG-Ale"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch your finger inside the grey square, and move it around to generate a password." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwP-xo-fng">
+                                        <rect key="frame" x="8" y="112" width="327" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="N5F-pK-6wr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="hwP-xo-fng" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leadingMargin" id="FDH-5W-R9Z"/>
                                     <constraint firstAttribute="trailing" secondItem="uIt-ME-cID" secondAttribute="trailing" id="GoG-fo-6RA"/>
-                                    <constraint firstItem="Rvt-v5-onK" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="27" id="YA1-ED-gfc"/>
-                                    <constraint firstItem="Rvt-v5-onK" firstAttribute="trailing" secondItem="hwP-xo-fng" secondAttribute="trailing" id="ZHj-o6-Zh5"/>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="centerX" secondItem="hwP-xo-fng" secondAttribute="centerX" id="ZS8-QO-C0f"/>
-                                    <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="Rvt-v5-onK" secondAttribute="bottom" constant="8" symbolic="YES" id="c5L-2Z-Ims"/>
+                                    <constraint firstItem="hwP-xo-fng" firstAttribute="centerX" secondItem="uIt-ME-cID" secondAttribute="centerX" id="aWE-iT-QFh"/>
+                                    <constraint firstItem="hwP-xo-fng" firstAttribute="top" secondItem="uIt-ME-cID" secondAttribute="bottom" constant="15" id="dQn-sj-nxB"/>
+                                    <constraint firstAttribute="bottom" secondItem="hwP-xo-fng" secondAttribute="bottom" id="gPb-sC-36z"/>
+                                    <constraint firstItem="uIt-ME-cID" firstAttribute="top" secondItem="Rvt-v5-onK" secondAttribute="bottom" constant="8" symbolic="YES" id="giw-P6-qJF"/>
                                     <constraint firstItem="uIt-ME-cID" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leading" id="ibn-qV-xDg"/>
-                                    <constraint firstItem="hwP-xo-fng" firstAttribute="top" secondItem="uIt-ME-cID" secondAttribute="bottom" constant="24" id="l6k-uf-DkD"/>
-                                    <constraint firstItem="hwP-xo-fng" firstAttribute="bottom" secondItem="O0n-qs-Rev" secondAttribute="bottomMargin" id="zpv-d6-j7k"/>
+                                    <constraint firstItem="hwP-xo-fng" firstAttribute="leading" secondItem="O0n-qs-Rev" secondAttribute="leadingMargin" id="nKg-Ur-pdR"/>
+                                    <constraint firstItem="Rvt-v5-onK" firstAttribute="top" secondItem="O0n-qs-Rev" secondAttribute="top" constant="27" id="wuG-8w-I2A"/>
+                                    <constraint firstItem="Rvt-v5-onK" firstAttribute="trailing" secondItem="hwP-xo-fng" secondAttribute="trailing" id="ytT-9Y-veb"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-a2-aJX" customClass="UITouchView" customModule="RandGenApp" customModuleProvider="target">
@@ -144,23 +144,35 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xxxxxxxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pRr-r3-WTs">
                                 <rect key="frame" x="16" y="317" width="343" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="sm7-Wp-zjS"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push Start and move your phone randomly to generate a password" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ks-6S-0Z4">
+                                <rect key="frame" x="16" y="426" width="343" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="t3H-XL-LUV" firstAttribute="centerX" secondItem="pRr-r3-WTs" secondAttribute="centerX" id="5Yn-iA-ZSh"/>
-                            <constraint firstItem="pRr-r3-WTs" firstAttribute="trailing" secondItem="Wnw-16-3eh" secondAttribute="trailingMargin" id="5Z4-HY-8d7"/>
-                            <constraint firstItem="o77-Be-aEm" firstAttribute="leading" secondItem="9xm-yI-4ne" secondAttribute="leading" constant="68" id="KHa-wY-idA"/>
-                            <constraint firstItem="pRr-r3-WTs" firstAttribute="leading" secondItem="Wnw-16-3eh" secondAttribute="leadingMargin" id="WW6-0O-JNc"/>
-                            <constraint firstItem="pRr-r3-WTs" firstAttribute="centerY" secondItem="Wnw-16-3eh" secondAttribute="centerY" id="aQI-te-VVZ"/>
-                            <constraint firstItem="9xm-yI-4ne" firstAttribute="bottom" secondItem="pRr-r3-WTs" secondAttribute="bottom" constant="269" id="atL-Go-ihp"/>
-                            <constraint firstItem="o77-Be-aEm" firstAttribute="baseline" secondItem="t3H-XL-LUV" secondAttribute="baseline" id="bvb-h3-OZp"/>
-                            <constraint firstItem="o77-Be-aEm" firstAttribute="top" secondItem="9xm-yI-4ne" secondAttribute="top" constant="155" id="hvP-ii-Tkm"/>
-                            <constraint firstItem="eEh-b1-jfZ" firstAttribute="leading" secondItem="t3H-XL-LUV" secondAttribute="trailing" constant="68" id="ija-DF-cPF"/>
-                            <constraint firstItem="t3H-XL-LUV" firstAttribute="baseline" secondItem="eEh-b1-jfZ" secondAttribute="baseline" id="qH3-k3-por"/>
+                            <constraint firstItem="o77-Be-aEm" firstAttribute="baseline" secondItem="t3H-XL-LUV" secondAttribute="baseline" id="CgC-94-zBQ"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="leading" secondItem="Wnw-16-3eh" secondAttribute="leadingMargin" id="ODe-8i-swG"/>
+                            <constraint firstItem="eEh-b1-jfZ" firstAttribute="leading" secondItem="t3H-XL-LUV" secondAttribute="trailing" constant="68" id="Ozo-Ud-4OD"/>
+                            <constraint firstItem="t3H-XL-LUV" firstAttribute="baseline" secondItem="eEh-b1-jfZ" secondAttribute="baseline" id="Ppa-BD-cGA"/>
+                            <constraint firstItem="t3H-XL-LUV" firstAttribute="centerX" secondItem="pRr-r3-WTs" secondAttribute="centerX" id="RVn-nP-cr1"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="centerY" secondItem="Wnw-16-3eh" secondAttribute="centerY" id="bYh-DS-dMj"/>
+                            <constraint firstItem="o77-Be-aEm" firstAttribute="top" secondItem="9xm-yI-4ne" secondAttribute="top" constant="155" id="ffL-Lh-oLX"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="trailing" secondItem="7Ks-6S-0Z4" secondAttribute="trailing" id="nyP-vP-lM4"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="leading" secondItem="7Ks-6S-0Z4" secondAttribute="leading" id="oA4-ha-59i"/>
+                            <constraint firstItem="9xm-yI-4ne" firstAttribute="bottom" secondItem="7Ks-6S-0Z4" secondAttribute="bottom" constant="145" id="tTg-tC-Phk"/>
+                            <constraint firstItem="o77-Be-aEm" firstAttribute="leading" secondItem="9xm-yI-4ne" secondAttribute="leading" constant="68" id="ynG-c8-AVr"/>
+                            <constraint firstItem="pRr-r3-WTs" firstAttribute="trailing" secondItem="Wnw-16-3eh" secondAttribute="trailingMargin" id="zHu-iP-p4G"/>
+                            <constraint firstItem="7Ks-6S-0Z4" firstAttribute="top" secondItem="pRr-r3-WTs" secondAttribute="bottom" constant="77" id="zI9-7k-Zk6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9xm-yI-4ne"/>
                     </view>
@@ -171,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u2K-eb-i2Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="472" y="805"/>
+            <point key="canvasLocation" x="471.19999999999999" y="804.64767616191909"/>
         </scene>
     </scenes>
     <resources>

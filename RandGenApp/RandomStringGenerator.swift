@@ -25,4 +25,5 @@ class RandomStringGenerator {
         
         return String(randomChars)
     }
+    
 }
